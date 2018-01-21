@@ -1,0 +1,24 @@
+{
+    "name": "wmilewski/laravel-repository",
+    "description": "A simple repository implementation for the Eloquent query builder, Laravel.",
+    "keywords": ["laravel", "repository"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Repository\\": "src/Repository/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    }
+}
